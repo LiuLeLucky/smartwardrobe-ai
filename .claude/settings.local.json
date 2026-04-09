@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/python --version)",
+      "Bash(.venv/Scripts/python -c \"import fastapi, sqlalchemy, aiosqlite; print\\(''Core deps OK''\\)\")",
+      "Bash(.venv/Scripts/python -m app.core.security)",
+      "Bash(.venv/Scripts/python -c \":*)",
+      "Bash(.venv/Scripts/python -c \"import aiofiles; print\\('aiofiles imported OK'\\)\")",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(.venv/Scripts/python -c ':*)",
+      "Bash(netstat -ano)",
+      "Bash(.venv/Scripts/python -c \"import ast; ast.parse\\(open\\('app/services/ai_service.py', encoding='utf-8'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(cmd.exe:*)"
+    ]
+  }
+}
