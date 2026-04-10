@@ -19,3 +19,9 @@ frontend/.env.local
 
 # IDE configs
 .idea/
+
+# Claude Code config
+.claude/
+
+# Test assets
+Test pictures/
